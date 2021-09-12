@@ -1,0 +1,96 @@
+.react-tabs__tab-list {
+    background-color: var(--app-theme-secondary-color);
+    color: var(--white-color);
+    font-size: var(--font-size-responsive-14);
+    font-weight: 500;
+    margin: 0 !important;
+    display: flex;
+    padding-left: 130vh;
+    list-style-type: none;
+}
+
+.react-tabs__tab{
+    margin: 0 12px;
+    bottom:0;
+    padding-left: 2vh;
+    cursor: pointer;
+}
+
+.react-tabs__tab--selected {
+    background-color: inherit !important;
+    border: none !important;
+    color:var(--tabs-selected-text-color) !important;
+    font-weight: 500;
+    font-family: var(--font-family-Roboto-Medium);
+    padding-left: 2vh;
+}
+
+.react-tabs__tab .tab-name {
+    padding: 12px 0;
+}
+
+.count {
+    border-radius: 9px;
+    background-color:var(--tabs-count-color);
+    font-size: var(--font-size-responsive-11);
+    padding: 2px 10px;
+    color: var(--white-color);
+    margin-left: 6px;
+    text-align: center;
+}
+
+.react-tabs__tab div {
+    display: inline-block;
+}
+
+.react-tabs__tab-panel{
+    height: 100%;
+}
+
+.project-panel-container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--basic-settings-background-color);
+    flex-direction: column;
+}
+
+.project-panel-container .form-container{
+    align-items: center;
+    justify-content: center;
+    background-color: var(--basic-settings-background-color);
+    height: auto;
+    width: auto;
+}
+
+.project-panel-container .form-container {
+    width: 380px;
+    border-radius: 3px;
+    background-color: var(--basic-settings-form-color);
+    padding: 40px;
+    position: relative;
+}
+
+.project-panel-container .form-container .popup_header {
+    display: none;
+}
+
+.project-panel-header {
+    font-size: var(--font-size-responsive-15);
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: var(--font-family-Roboto-Medium);
+    margin-left: 150px;
+}
+
+.project-panel-left{
+    position: absolute;
+    left: 0px;
+}
+
+.project-panel{
+    width: 1000px;
+    height: 500px;
+    position: relative;
+}
